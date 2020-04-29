@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>tictactoe</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="tictactoe.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Welcome to Tic Tac Toe!</h1>
+        <button id="b" class="btn btn-primary btn-lg" type="button" name="button">Restart</button>
+      </div>
+        <table align='center'>
+          <tr>
+            <!-- <td id='one'></td> -->
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+    </div>
+    <script src="tictactoe.js"></script>
+  </body>
+</html>
